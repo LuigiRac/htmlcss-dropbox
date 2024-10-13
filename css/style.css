@@ -1,0 +1,45 @@
+/* Google Font */
+
+
+/* Utility */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.debug {
+    border: 1px solid red;
+}
+
+
+body {
+    font-family: 'open sans';
+    background-color: white;
+    color:black;
+    font-size: 15px;
+}
+
+.container-1 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.container-2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+/* Flex */
+.d-flex {
+    display: flex;
+}
+
+/* Header */
+
+/* Main */
+
+
+/* Footer */
