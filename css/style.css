@@ -32,12 +32,45 @@ body {
     margin: 0 auto;
     padding: 20px 10px;
 }
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.gap{
+    gap: 30px;
+}
+
+
+.btn-blue {
+    padding: 5px 15px;
+    background-color: #0160FF;
+    color: white;
+    text-decoration: none;
+}
+
 /* Flex */
 .d-flex {
     display: flex;
 }
 
+.space-bet {
+    justify-content: space-between;
+}
 /* Header */
+header {
+    background-color: white;
+    color: black;
+}
 
 /* Main */
 
