@@ -50,12 +50,15 @@ a {
     gap: 30px;
 }
 
-
 .btn-blue {
     padding: 5px 15px;
     background-color: #0160FF;
     color: white;
     text-decoration: none;
+}
+
+.bg-blue {
+    background-color: #B3D0E7;
 }
 
 /* Flex */
@@ -67,12 +70,12 @@ a {
     justify-content: space-between;
 }
 /* Header */
-header {
-    background-color: white;
-    color: black;
-}
+
 
 /* Main */
-
+    /* Jumbo */
+    h1{
+        font-size: 5em;
+    }
 
 /* Footer */
