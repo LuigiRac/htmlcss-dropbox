@@ -33,6 +33,12 @@ body {
     padding: 20px 10px;
 }
 
+.container-3 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
 ul {
     list-style: none;
 }
@@ -43,11 +49,15 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    
 }
 
 .gap{
     gap: 30px;
+}
+
+.gap10 {
+    gap: 10px;
 }
 
 .btn-blue {
@@ -78,8 +88,18 @@ header {
     left: 0px;
     top: 0px;
     width: 100%;
-    background-color: white;
+    background-color: #FFFFFF;
     z-index: 1000;
+    padding: 0px 20px;
+}
+
+ header a {
+    color: black;
+}
+
+header nav ul:first-child li:not(:first-child) a :hover,
+header nav ul:nth-child(2) li:not(:last-child) a :hover {
+    border-bottom: 2px solid black;
 }
 
 /* Main */
@@ -119,4 +139,40 @@ header {
     #businnes {
         margin-top: 130px;
     }
+
+    h2 {
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+
+    .padding-check {
+        padding-right: 30px;
+    }
+
+    .border {
+        border: 1px solid grey;
+    }
+
+    div.border {
+        width: calc((100% - 20px) / 3);
+        min-width: 300px;
+    }
+
 /* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer h3 {
+    padding: 40px 0px 20px;
+}
+
+.footer-top {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 70px;
+}
