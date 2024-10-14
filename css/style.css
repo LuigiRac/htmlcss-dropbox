@@ -34,7 +34,7 @@ body {
 }
 
 .container-3 {
-    max-width: 800px;
+    max-width: 950px;
     margin: 0 auto;
     padding: 20px 10px;
 }
@@ -71,6 +71,21 @@ a {
     background-color: #B3D0E7;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-top {
+    padding: 30px 15px;
+}
+
+.p-bottom {
+    padding-bottom: 40px;
+}
 
 /* Flex */
 .d-flex {
@@ -79,6 +94,10 @@ a {
 
 .space-bet {
     justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
 }
 
 
@@ -158,6 +177,22 @@ header nav ul:nth-child(2) li:not(:last-child) a :hover {
         min-width: 300px;
     }
 
+    .bord-bott {
+        border-bottom: 1px solid grey;
+        text-align: center;
+    }
+
+    .link-bus {
+        text-align: center;
+        width: 90%;
+        padding: 13px;
+    }
+
+    .main-top {
+            border-bottom: 1px solid grey#ffffff;
+            padding-bottom: 70px;
+        
+    }
 /* Footer */
 footer {
     background-color: #000000;
